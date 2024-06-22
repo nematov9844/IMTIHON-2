@@ -1,0 +1,50 @@
+.about__alliance{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &__all{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(330px,1fr));
+        gap: 20px;
+    }
+    &__all.img{
+        .about__alliance__card{
+            padding: 60px 120px;
+        }
+    }
+    &__card{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-size: 40px;
+            color: blue;
+            font-family: "Michroma", sans-serif;
+        }
+        p{
+            color: #333333;
+            font-family: "Michroma", sans-serif;
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .alliance{
+        &__all{
+
+            .about__alliance__card{
+                &:nth-child(1){
+                    display: none;
+                }
+            }
+        }
+        &__card{
+            img{
+                min-height: 280px;
+            }
+        }
+      
+    }
+}

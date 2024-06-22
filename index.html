@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Home</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav  container df">
+            <div class="header__logos nr">
+               <a href="./index.html">
+                <img src="./img/logo.svg" alt=""> <h1>IT TA'LIM</h1>
+               </a>
+            </div>
+            <ul class="header__list nr">
+                <li class="header__iitem"><a href="./pages/about.html" class="header__link">About</a></li>
+                <li class="header__iitem"><a href="#" class="header__link">Maqsadimiz</a></li>
+                <li class="header__iitem"><a href="#" class="header__link">Ta'lim</a></li>
+                <li class="header__iitem"><a href="#" class="header__link">Imkoniyat</a></li>
+                <li class="header__iitem"><a href="#" class="header__link">A’zolik</a></li>
+                <li class="header__iitem"><a href="#" class="header__link">Profile</a></li>
+            </ul>
+            <div class="header__action nr">
+                <div class="header__dropdown">
+             <div class="header__dropdown__btns">
+                <button class="header__dropdown__btn" onclick="drop()">UZ <span class="header__down"><i class="fa-solid fa-angle-down"></i></span></button>
+                <button class="header__dropdown__btn none ru" onclick="dropru()">RUS <span class="header__down"><i class="fa-solid fa-angle-down"></i></span></button>
+                <button class="header__dropdown__btn 
+                 emg none" onclick="dropeng()">ENG <span class="header__down"><i class="fa-solid fa-angle-down"></i></span></button>
+             </div>
+                </div>
+                <button class="header__btn">Kirish <i class="fa-solid fa-plus"></i></button>
+                <button class="header__toggle" onclick="toggle()"><i class="fa-solid fa-bars-staggered"></i></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero__top">
+                <div class="hero__top__title">
+                    <h1>biz bilan xalqaro darajagacha</h1>
+                </div>
+                <div class="hero__top__title">
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
+                </div>
+            </div>
+            <div class="hero__img">
+                <img src="./img/her-img.svg" alt="hero__img">
+            </div>
+        </section>
+        <section class="alliance container">
+       <div class="alliance__all">
+        <div class="alliance__card"><p><span class="pi"></span>About</p></div>
+        <div class="alliance__card">
+            <h1>IT ta’lim uyshmasi bilan bo’ling</h1>
+            <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
+            <button>Batafsil</button>
+        </div>
+        <div class="alliance__card">
+            <img src="./img/alliance__1.svg" alt="">
+        </div>
+       </div>
+        </section>
+        <section class="alliance container">
+         <div class="alliance__all">
+            <div class="alliance__card">
+                <p><span class="pi"></span>Maqsadimiz</p>
+            </div>
+            <div class="alliance__card">
+                <h1>Maqsadimiz bizni dunyo tan olishi</h1>
+            </div>
+            <div class="alliance__card">
+            </div>
+         </div>
+        </section>
+        <section class="alliance container">
+            <div class="alliance__all">
+               <div class="alliance__card"></div>
+               <div class="alliance__card">
+                <img src="./img/alliance__2.svg" alt="">
+               </div>
+               <div class="alliance__card">
+                <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llab quvvatlash<i class="fa-solid fa-arrow-right-long"></i></p>
+                <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llab quvvatlash<i class="fa-solid fa-arrow-right-long"></i></p>
+                <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llab quvvatlash<i class="fa-solid fa-arrow-right-long"></i></p>
+                <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llab quvvatlash<i class="fa-solid fa-arrow-right-long"></i></p>
+               </div>
+            </div>
+           </section>
+           <section class="alliance container">
+            <div class="alliance__all">
+             <div class="alliance__card">
+                <p><span class="pi"></span>Ta’lim</p>
+             </div>
+             <div class="alliance__card">
+                <h1>ta’limga berilga imkoniyatdan foydalanish</h1>
+             </div>
+             <div class="alliance__card"></div>
+            </div>
+            <div class="alliance__all">
+                <div class="alliance__card">
+                    <p>IT ta’lim va online kontent ko’paytirish</p>
+                    <img src="./img/alliance__3.svg" alt="">
+                    <p>Davlat va nodavlat ta’lim muassasalari bilan hamkorlik qilish</p>
+                    <p>batafsil<i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+                <div class="alliance__card">
+                    <p>A'ZOLIK</p>
+                    <img src="./img/alliance__4.svg" alt="">
+                    <p>Davlat va nodavlat ta’lim muassasalari bilan hamkorlik qilish</p>
+                    <p>batafsil<i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+                <div class="alliance__card">
+                    <p>TARG'IBOT VA RAG'BATLANTIRISH</p>
+                    <img src="./img/alliance__5.svg" alt="">
+                    <p>Davlat va nodavlat ta’lim muassasalari bilan hamkorlik qilish</p>
+                    <p>batafsil<i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+               </div>
+               <div class="alliance__all">
+                <div class="alliance__card">
+                    <p><span class="pi"></span>Imkoniyatlar</p>
+                </div>
+                <div class="alliance__card">
+                    <h1>ta’lim berilgan imkoniyatlar</h1>
+                </div>
+                <div class="alliance__card"></div>
+               </div>
+               <div class="alliance__all icon">
+                <div class="alliance__card"></div>
+                <div class="alliance__card">
+                    <p><i class="fa-solid fa-atom"></i></p>
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish</p>
+                </div>
+                <div class="alliance__card">
+                    <p><i class="fa-solid fa-eye"></i></p>
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish</p>
+                </div>
+               </div>
+               <div class="alliance__all icon">
+                <div class="alliance__card"></div>
+                <div class="alliance__card">
+                    <p><i class="fa-solid fa-basketball"></i></p>
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish</p>
+                </div>
+                <div class="alliance__card">
+                    <p><i class="fa-regular fa-user"></i></p>
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish</p>
+                </div>
+               </div>
+               <div class="alliance__all">
+                <div class="alliance__card">
+                    <p><span class="pi"></span>Imkoniyatlar</p>
+                </div>
+                <div class="alliance__card">
+                    <h1>ta’lim berilgan imkoniyatlar</h1>
+                </div>
+                <div class="alliance__card"></div>
+               </div>
+               
+               <div class="alliance__all__tv">
+                     <div class="alliance__card">
+                        <div class="alliance__card__top">
+                            <img src="./img/tv_!.svg" alt="">
+                        </div>
+                        <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llabquvvatlash <i class="fa-solid fa-arrow-right-long"></i></p>
+                     </div> 
+                     <div class="alliance__card">
+                        <div class="alliance__card__top">
+                            <img src="./img/tv_1.svg" alt="">
+                        </div>
+                        <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llabquvvatlash <i class="fa-solid fa-arrow-right-long"></i></p>
+                     </div> 
+                     <div class="alliance__card">
+                        <div class="alliance__card__top">
+                            <img src="./img/tv_3.svg" alt="">
+                        </div>
+                        <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llabquvvatlash <i class="fa-solid fa-arrow-right-long"></i></p>
+                     </div> 
+                     <div class="alliance__card">
+                        <div class="alliance__card__top">
+                            <img src="./img/tv_4.svg" alt="">
+                        </div>
+                        <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llabquvvatlash <i class="fa-solid fa-arrow-right-long"></i></p>
+                     </div> 
+               </div>
+
+               <div class="alliance__all">
+                <div class="alliance__card">
+                    <p><span class="pi"></span>Imkoniyatlar</p>
+                </div>
+                <div class="alliance__card">
+                    <h1>ta’lim berilgan imkoniyatlar</h1>
+                </div>
+                <div class="alliance__card"></div>
+               </div>
+               <div class="alliance__all">
+                <div class="alliance__card"></div>
+                <div class="alliance__card">
+                    <img src="./img/imk_1.svg" alt="">
+                </div>
+                <div class="alliance__card">
+                    <h5>Zamonaviy teledasturlar orqali yoshlarni AKT sohasiga kengroq jalb qilish</h5>
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
+                    <button>Batafsil</button>
+                </div>
+               </div>
+               <div class="alliance__all">
+                <div class="alliance__card"></div>
+                <div class="alliance__card">
+                    <img src="./img/imk_2.svg" alt="">
+                </div>
+                <div class="alliance__card">
+                    <h5>Zamonaviy teledasturlar orqali yoshlarni AKT sohasiga kengroq jalb qilish</h5>
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
+                    <button>Batafsil</button>
+                </div>
+               </div>
+               <div class="alliance__all">
+                <div class="alliance__card"></div>
+                <div class="alliance__card">
+                    <img src="./img/imk_3.svg" alt="">
+                </div>
+                <div class="alliance__card">
+                    <h5>Zamonaviy teledasturlar orqali yoshlarni AKT sohasiga kengroq jalb qilish</h5>
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
+                    <button>Batafsil</button>
+                </div>
+               </div>
+               <div class="alliance__all">
+                <div class="alliance__card">
+                    <p><span class="pi"></span>Xalqaro</p>
+                </div>
+                <div class="alliance__card">
+                    <h1>ta’lim berilga imkoniyatlardan foydalaish kerak</h1>
+                </div>
+                <div class="alliance__card"></div>
+               </div>
+             
+           </section>
+           <section class="virtual container">
+            <div class="virtual__img">
+                <p>Bizga A’zo bo’ling . Biznesingiz va siz dunyo taniydigan darajadasiz</p>
+            </div>
+            <div class="virtual__info">
+                <div class="virtual__card">
+                    <p>A’zo bo’lish</p>
+                    <button>A’zolik <i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="virtual__card">
+                    <p>Profile yaratish</p>
+                    <button>A’zolik <i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+           </section>
+           <section class="alliance container">      
+               <div class="alliance__all">
+                <div class="alliance__card">
+                    <p><span class="pi"></span>Partnyorlar</p>
+                </div>
+                <div class="alliance__card">
+                    <h1>Xamkorlar</h1>
+                </div>
+                <div class="alliance__card">
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
+                </div>
+               </div>
+               <div class="alliance__all bbc">
+                <div class="alliance__card"></div>
+                <div class="alliance__card">
+                    <img src="./img/muk_1.svg" alt="">
+                </div>
+                <div class="alliance__card">
+                    <img src="./img/muk_2.svg" alt="" class="bbc">
+                </div>
+                <div class="alliance__card">
+                    <img src="./img/muk_3.svg" alt="">
+                </div>
+               </div>
+               <div class="alliance__all">
+                   <div class="alliance__card">
+                    <p><span class="pi"></span>Partnyorlar</p>
+                   </div>
+                   <div class="alliance__card">
+                    <h1>Yangiliklar va blog</h1>
+                   </div>
+                   <div class="alliance__card">
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
+                   </div>
+               </div>
+               <div class="alliance__all img">
+                <div class="alliance__card">
+                    <img src="./img/rob_1.svg" alt="">
+                    <p>O‘zbekistonda qizlarni aktlari sohasiga yana-da kengroq</p>
+                </div>
+                <div class="alliance__card">
+                    <img src="./img/rob_2.svg" alt="">
+                    <p>O‘zbekistonda qizlarni aktlari sohasiga yana-da kengroq<i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+                <div class="alliance__card">
+                    <img src="./img/rob_3.svg" alt="">
+                    <p>O‘zbekistonda qizlarni aktlari sohasiga yana-da kengroq<i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+               </div>
+               <div class="alliance__all img">
+                <div class="alliance__card">
+                    <img src="./img/rob_4.svg" alt="">
+                    <p>O‘zbekistonda qizlarni aktlari sohasiga yana-da kengroq</p>
+                </div>
+                <div class="alliance__card">
+                    <img src="./img/rob_5.svg" alt="">
+                    <p>O‘zbekistonda qizlarni aktlari sohasiga yana-da kengroq<i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+                <div class="alliance__card">
+                    <img src="./img/rob_6.svg" alt="">
+                    <p>O‘zbekistonda qizlarni aktlari sohasiga yana-da kengroq<i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+               </div>
+
+
+               <div class="alliance__all btn">
+                <div class="alliance__card">
+                    <p><span class="pi"></span>Team</p>
+                </div>
+                <div class="alliance__card">
+                    <h1>it ta’lim uyushmasi jamoasi</h1>
+                </div>
+                <div class="alliance__card">
+                    <button>Batafsil<i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+               </div>
+               <div class="alliance__all aut">
+                <div class="alliance__card"></div>
+                <div class="alliance__card">
+                    <img src="./img/autor_1.svg" alt="">
+                    <p>Nodirbek Barnayev</p>
+                    <p>Ijrochi director</p>
+                </div>
+                <div class="alliance__card">
+                    <img src="./img/autor_2.svg" alt="">
+                    <p>Nodirbek Barnayev</p>
+                    <p>Ijrochi director</p>
+                </div>
+                <div class="alliance__card">
+                    <img src="./img/autor_3.svg" alt="">
+                    <p>Munisa rizayeva</p>
+                    <p>Ijrochi director</p>
+                </div>
+               </div>
+               
+           </section>
+           <section class="talim container" >
+            <div class="talim__img">
+            </div>
+            <div class="talim__desc">
+                <img src="./img/mnt_2.svg" alt="">
+                <h1>ta’limga berilgan imkoniyatdan foydalaish kerak</h1>
+                <div class="talim__bottom">
+                    <p>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning</p>
+                    <button>Kirish<i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+           </section>
+    </main>
+    <footer class="footer container">
+        <div class="alliance__all">
+         <div class="alliance__card">
+            <div class="logos"><img src="./img/logo.svg" alt=""><h1>it ta’lim uyushmasi</h1></div>
+         </div>
+         <div class="alliance__card">
+            <p>Ta'lim</p>
+            <p>Targ'ibot</p>
+            <p>Tadbirlar</p>
+            <p>Targ'ibot</p>
+            <p>A’zolik</p>
+         </div>
+         <div class="alliance__card">
+            <p>Ta'lim</p>
+            <p>Targ'ibot</p>
+            <p>Tadbirlar</p>
+            <p>Targ'ibot</p>
+            <p>A’zolik</p>
+         </div>
+         <div class="alliance__card">
+            <p><i class="fa-regular fa-envelope"></i>info@it-talim.uz<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;""></i></p>
+            <p><i class="fa-solid fa-phone"></i>+ (99)  803  7373<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;""></i></p>
+            <p><i class="fa-solid fa-location-dot"></i>Tepamasjid, 4, Olimlar<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;""></i></p>
+         </div>
+        </div>
+        <div class="alliance__all">
+            <div class="alliance__card"></div>
+            <div class="alliance__card">
+                <a href="">Telegram<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;""></i></a>
+            </div>
+            <div class="alliance__card">
+                <a href="">Instagram<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;""></i></a>
+            </div>
+            <div class="alliance__card">
+                <a href="">Facebook<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;""></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
