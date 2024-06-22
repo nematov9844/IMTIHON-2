@@ -509,6 +509,13 @@ a::after {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  font-size: 24px;
+}
+
+.alliance.pur {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .virtual {
