@@ -83,6 +83,13 @@ a::after {
     padding: 20px 20px;
   }
 }
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
 .df {
   display: flex;
   align-items: center;
