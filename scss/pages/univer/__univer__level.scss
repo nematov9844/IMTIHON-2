@@ -1,0 +1,85 @@
+.univer__level {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .alliance__all {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+  &__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  &__card__desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    padding: 9px 21px;
+    border: none;
+    color: blue;
+    justify-content: center;
+    gap: 10px;
+    background: transparent;
+  }
+}
+.univer__tv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 60%;
+}
+.alliance.tuf{
+    width: 100%;
+    display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+    justify-content: flex-end;
+} 
+
+@media (max-width: 992px) {
+  .univer__level {
+    .alliance__all {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    }
+  }
+  .univer__tv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.alliance__cardts{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+.alliance__all__tvs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .alliance__cardts{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .alliance__card__bottom{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
+
+.alliance{
+    margin: 20px 0px;
+}

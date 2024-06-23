@@ -3,9 +3,14 @@
     flex-direction: column;
     gap: 30px;
     justify-content: center;
+    &__card__top.nrd{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
     &__all{
         display: grid;
-        grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
         gap: 20px;
     }
     &__all.icon{
@@ -158,7 +163,7 @@
    }
    &__all.ty{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
    }
 }
 
@@ -166,6 +171,28 @@
 
 @media (min-width:992px) {
     .alliance{
+        &__all{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+            gap: 20px;
+        }
+        &__card__top.nrd{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            
+        }
+        &__all.ty{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+            .about__alliance__card{
+                min-width: 200px;
+            }
+            img{
+                width: 100%;
+                min-width: 300px;
+            }
+           }
         &__all__tv{
             width: 100%;
             display: grid;
@@ -212,7 +239,7 @@
             align-items: center;
             justify-content: center;
             gap: 10px;
-            font-size: 24px;
+            font-size: 20px;
         }
     }
 }

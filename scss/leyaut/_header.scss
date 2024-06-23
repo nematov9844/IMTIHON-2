@@ -5,12 +5,10 @@
     background-color: rgba(0, 0, 0, 0.321);
     backdrop-filter: blur(10px);
     width: 100%;
-    padding: 35px 20px;
     &__nav{
         width: 85%;
         max-width: 1440px;
         margin: 0 auto;
-
     }
     &__logos{
         a{
@@ -122,6 +120,8 @@
 
     @media (min-width:768px) {
         .header{
+                &__nav{
+            }
             &__logos{
                 a{
                     display: flex;
@@ -138,7 +138,7 @@
 
     @media (min-width:992px) {
         .header{
-            &__list{
+                &__list{
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -158,13 +158,14 @@
         
         .header.active{
             .header__nav{
-             .header__list{
+                .header__list{
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 gap: 15px;
                 flex-direction: row;
                 position: static;
+                height: auto;
                 background:transparent;
                 .header__link{
                 font-size: inherit;

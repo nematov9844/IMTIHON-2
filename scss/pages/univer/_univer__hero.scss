@@ -1,0 +1,54 @@
+.univer__hero{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    &__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+        order: 2;
+        .alliance__card{
+            button{
+                background-color: blue;
+                color: white;
+                border: none;
+            }
+        }
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        img{
+            width: 80%;
+        }
+    }
+    
+}
+
+@media (min-width:992px) {
+    .univer__hero{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        &__left{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            order: 1;
+        }
+        &__img{
+            width: 30%;
+            order: 2;
+            img{
+                width: 400px;
+            }
+        }
+    }
+}
